@@ -1,2 +1,2 @@
 # SitfitChair
-flexible chair project
+flexible chair project using Javascript
