@@ -1,0 +1,251 @@
+/*------------------------------------------
+ font-family: 'libre_franklinmedium';
+---------------------------------------------*/
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    overflow-x: hidden;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'libre_franklinmedium';
+
+}
+
+html ,*{margin: 0px;padding: 0px;  border:none; outline:none;}
+
+/*------- libre_franklin fonts -----------*/
+
+@font-face {
+  font-family: 'libre_franklinblack';
+  src: url('../fonts/librefranklin-black-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-black-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinblack_italic';
+  src: url('../fonts/librefranklin-blackitalic-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-blackitalic-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinbold';
+  src: url('../fonts/librefranklin-bold-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-bold-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinbold_italic';
+  src: url('../fonts/librefranklin-bolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-bolditalic-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinextrabold';
+  src: url('../fonts/librefranklin-extrabold-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-extrabold-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinXBdIt';
+  src: url('../fonts/librefranklin-extrabolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-extrabolditalic-webfont.woff') format('woff');
+  font-weight: normal;font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinextralight';
+  src: url('../fonts/librefranklin-extralight-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-extralight-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinitalic';
+  src: url('../fonts/librefranklin-italic-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-italic-webfont.woff') format('woff');
+  font-weight: normal;font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinlight';
+  src: url('../fonts/librefranklin-light-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-light-webfont.woff') format('woff');
+  font-weight: normal;font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinlight_italic';
+  src: url('../fonts/librefranklin-lightitalic-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-lightitalic-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_franklinmedium';
+  src: url('../fonts/librefranklin-medium-webfont.woff2') format('woff2'),
+       url('../fonts/librefranklin-medium-webfont.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section { display: block;}
+a{transition: all 0.3s linear;}
+
+.form-control::-moz-placeholder {color: #006991;}
+/*========================
+  form fill section
+======================== */
+textarea {min-height: 170px; resize: none; }
+.form-control,
+textarea,
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+border-radius: 0;
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-appearance: none;
+-webkit-box-shadow: none;
+padding: 10px 15px;
+font-size: 17px;
+height: auto;
+width: 100% !important;
+font-family: 'libre_franklinlight';
+line-height: normal;
+color: #000;
+border: 0px;
+outline: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+-o-appearance: none;
+appearance: none;
+}
+
+.btn.focus, .btn:focus, .btn:hover{color: #fff;}
+
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {opacity: 1; } 
+::-moz-placeholder {opacity: 1; } 
+::-ms-placeholder {opacity: 1; }
+:-o-input-placeholder {opacity: 1; }
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #aaaaaa !important;
+}
+
+input::-moz-placeholder,
+textarea::-moz-input-placeholder {
+    color: #aaaaaa !important;
+}
+
+input::-ms-placeholder,
+textarea::-ms-input-placeholder {
+   color: #aaaaaa !important;
+}
+
+input::-o-input-placeholder,
+textarea::-o-input-placeholder {
+    color: #aaaaaa !important;
+}
+
+
+::-webkit-input-placeholder { color: #aaaaaa !important; }
+::-moz-placeholder { color: #aaaaaa !important; }
+input:-moz-placeholder { color: #aaaaaa !important; }
+
+/*-------------------------------------
+         Typography 
+-------------------------------------*/
+h1, h2, h3, h4, h5, h6 { margin: 0px;  font-family: 'libre_franklinbold'; text-transform: uppercase;}
+h6{font-size: 20px; }
+
+h1 {font-size: 42px; margin-bottom: 25px;line-height: 1.2; color: #000;}
+h2 {font-size: 46px; margin-bottom: 15px; color: #000;}
+h3 {font-size: 35px; margin-bottom: 25px; color: #000;}
+h4{font-size: 26px; margin-bottom: 15px;}
+h5{font-size: 24px;  margin-bottom: 15px;}
+p {margin-bottom: 25px; line-height:1.4; font-size: 16px; color: #000; font-family: 'libre_franklinmedium';}
+
+.navbar,.navbar-right,.tel-section {-webkit-transition: all 0.4s linear; -moz-transition: all 0.4s linear; -ms-transition: all 0.4s linear; transition: all 0.4s linear;}
+.section {padding:70px 0;}
+.section h1, .section h2, .section h3 { line-height: 1.2; }
+
+a img{ display: inline-block; vertical-align: middle;}
+
+a:focus, a:hover{outline: none; }
+a:focus{outline: none; box-shadow: 0px 0px 0px; border:0px;outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;}
+
+/*===== Navbar toggle start ====== */
+.navbar-toggle{position: relative;float: right; padding: 9px 10px;border-radius: 4px; background-color: transparent; border: 0px; cursor: pointer; display: none; }
+.navbar-toggle .icon-bar{ width: 27px; height: 3px; background: red; border-radius: 0px;transition: all 0.4s linear; position: relative; display:block; margin-bottom:5px; }
+.navbar-toggle.open span.icon-bar:nth-child(1) {transform: rotate(-47deg);top: 8px;}
+.navbar-toggle.open span.icon-bar:nth-child(2) {opacity: 0; transform: scale(2,1);}
+.navbar-toggle.open span.icon-bar:nth-child(3) {transform: rotate(42deg);top: -8px;}
+
+.img-figure figure img,
+.navbar-default .navbar-nav li:before,
+a,.pull-right ,.nav-tabs>li>a {transition: all 1s ease; -webkit-transition: all 1s ease; -o-transition: all 1s ease; 
+-moz-transition: all 1s ease; -ms-transition: all 1s ease; color: inherit; }
+
+a {color: #ff0001; text-decoration: none; }
+a:hover{color: #ff0001; text-decoration: none; }
+a:hover,a:focus{text-decoration: none;}
+img { border: none; vertical-align: top; max-width: 100%; height: auto; }
+img:focus {outline: none; }
+.clear {clear: both; }
+
+.btn.active.focus, .btn.active:focus, 
+.btn.focus, .btn:active.focus, 
+.btn:active:focus, .btn:focus{outline: -webkit-focus-ring-color auto 0px; outline-offset: 0px;}
+
+.navbar-brand{padding: 7px 10px;  height:65px; transition: all 0.4s linear; position: relative;z-index: 10;}
+.navbar-brand img{height: 100%; transition: all 0.4s linear;}
+/*----------- button --------------*/
+.btn{ border:0px; transition: all 0.4s linear; border-radius: 0px; text-transform: uppercase;
+display: inline-block;padding:14px 35px; font-size: 13px;color:#fff;  font-family: 'libre_franklinbold';
+-webkit-appearance: none;-webkit-appearance: none;-moz-appearance: none; border:0px;
+-o-appearance: none; background-color: #ff0001; color: #fff; box-shadow: 0px 8px 20px #ff00014f;
+-ms-appearance: none;appearance: none; position: relative; z-index: 3;}
+
+.btn::before, .btn::after{content: ''; position: absolute; width: 20px; height: 20px; transition: all 0.3s linear;}
+.btn::before{left: 0; top: 0; border-left: 1px solid #ff0001;border-top: 1px solid #ff0001;}
+.btn::after{right: 0; bottom: 0; border-bottom: 1px solid #ff0001; border-right: 1px solid #ff0001;}
+.btn:hover::before{left: -10px; top: -10px;}
+.btn:hover::after{right: -10px; bottom: -10px;}
+
+.btn:focus{background-color: #ff0001; color: #fff;}
+
+.site-title small{position: relative; display: block; padding-left: 60px; font-size: 10px; margin-bottom: 25px; text-transform: uppercase;}
+.site-title small::before{content: ''; position: absolute; left: 0; width:50px; 
+height: 1px; background-color: #000; top: 6px;}
+
+
+.nav>li>a:focus, .nav>li>a:hover{ background-color: transparent; }
